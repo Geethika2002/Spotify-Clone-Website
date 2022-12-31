@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - WebPlayer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+        <h1>Geethika's Favourites</h1>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="1">
+                <span class="songName">Let Me Love You</span>
+                <span class="songListPlay"><span class="timeStamp">3:26<i id="0"  class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/2.jpg" alt="1">
+                <span class="songName">Rockabye</span>
+                <span class="songListPlay"><span class="timeStamp">4:13<i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/3.jpg" alt="1">
+                <span class="songName">Same Old Love</span>
+                <span class="songListPlay"><span class="timeStamp">5:34<i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/4.jpg" alt="1">
+                <span class="songName">We Don't Talk Anymore</span>
+                <span class="songListPlay"><span class="timeStamp">5:34<i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/5.jpg" alt="1">
+                <span class="songName">Once Upon A Time</span>
+                <span class="songListPlay"><span class="timeStamp">5:34<i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/6.jpg" alt="1">
+                <span class="songName">How Long</span>
+                <span class="songListPlay"><span class="timeStamp">5:34<i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/7.jpg" alt="1">
+                <span class="songName">Wolves</span>
+                <span class="songListPlay"><span class="timeStamp">5:34<i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/8.jpg" alt="1">
+                <span class="songName">New Rules</span>
+                <span class="songListPlay"><span class="timeStamp">5:34<i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/9.jpg" alt="1">
+                <span class="songName">Friends</span>
+                <span class="songListPlay"><span class="timeStamp">5:34<i id="8" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/10.jpg" alt="1">
+                <span class="songName">Blank Space</span>
+                <span class="songListPlay"><span class="timeStamp">5:34<i id="9" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+        </div>
+            
+
+        </div>
+        <div class="songBanner">
+
+        </div>
+    </div>
+        <div class="bottom">
+            <input type="range" id="myProgressBar" min="0" value="0" max="100">
+            <div class="icons">
+                <i class="fas fa-3x fa-step-backward" id="previous"></i>
+                <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+                <i class="fas fa-3x fa-step-forward" id="next"></i>
+                <!-- <i class="fa-solid far-3x fa-circle-play"></i> -->
+            </div>
+            <div class="songInfo">
+                <img src="playing.gif" width="50px" alt="" id="gif ">
+                <span id="mastersongName">Let Me Love You-Justin Beiber</span>
+            </div>
+
+        </div>
+        <script src="https://kit.fontawesome.com/a033e68281.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
